@@ -1,0 +1,80 @@
+/* *{
+    background-color: rgb(32, 31, 31);
+    
+} */
+body{
+ background-image: url(my.jpg);
+ background-size: cover;
+ height: 400px;
+ z-index: 0;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ 
+}
+.text{
+    /* padding: 20px; */
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* padding-top: 50px; */
+    font-size: 60px;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.input{
+    color: aliceblue;
+    padding: 60px;
+    margin-left: 27%;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.dropdown{
+   color: rgb(8, 8, 8);
+    /* padding: 50px; */
+    margin-top: -3%;
+    padding-left: 40%;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    
+    
+    
+}
+.input-text{
+    background-color: rgb(9, 9, 9);
+    z-index: 1;
+    position: relative;
+    align-items: center;
+
+
+}
+.output{
+    border: 1px solid white;
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 47%;
+    margin-top: 40px;
+   
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+#btn{
+    color: rgb(253, 252, 252);
+    z-index: 1;
+    position: relative;
+    background-color: black;
+    margin-left: 7%;
+}
+
